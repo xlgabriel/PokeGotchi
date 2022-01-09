@@ -154,7 +154,7 @@ RectTransform:
   m_GameObject: {fileID: 119031835}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.8767438, y: 2.409758, z: 2.409758}
+  m_LocalScale: {x: 1.0922536, y: 1.4024646, z: 1.4024646}
   m_Children:
   - {fileID: 1882513436}
   m_Father: {fileID: 1644964833}
@@ -162,7 +162,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -600, y: -300}
+  m_AnchoredPosition: {x: -250, y: -167}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &119031837
@@ -271,7 +271,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6d7d1e42dc563149af5efe8cdd4b1a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonPressed: 0
   myFx: {fileID: 119031841}
+  otherFx1: {fileID: 1363548682}
+  otherFx2: {fileID: 298745829}
+  otherFx3: {fileID: 322323695}
   botonFx: {fileID: 8300000, guid: a4efe5d6f4b0c9a49a7862085232a796, type: 3}
 --- !u!82 &119031841
 AudioSource:
@@ -398,6 +402,35 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!21 &183076053
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'cubonecardMaterial
+
+    24888'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4b56dc03f44c56d4399ac7c0541e60e8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
+  m_BuildTextureStacks: []
 --- !u!1 &298745823
 GameObject:
   m_ObjectHideFlags: 0
@@ -429,7 +462,7 @@ RectTransform:
   m_GameObject: {fileID: 298745823}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.8767438, y: 2.409758, z: 2.409758}
+  m_LocalScale: {x: 1.0922536, y: 1.4024646, z: 1.4024646}
   m_Children:
   - {fileID: 1558791982}
   m_Father: {fileID: 1644964833}
@@ -437,7 +470,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -280, y: -300}
+  m_AnchoredPosition: {x: -65, y: -167}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &298745825
@@ -546,7 +579,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6d7d1e42dc563149af5efe8cdd4b1a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonPressed: 0
   myFx: {fileID: 298745829}
+  otherFx1: {fileID: 322323695}
+  otherFx2: {fileID: 119031841}
+  otherFx3: {fileID: 1363548682}
   botonFx: {fileID: 8300000, guid: c21609e62c90dd24fbab66e33f105563, type: 3}
 --- !u!82 &298745829
 AudioSource:
@@ -704,7 +741,7 @@ RectTransform:
   m_GameObject: {fileID: 322323689}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.8767438, y: 2.409758, z: 2.409758}
+  m_LocalScale: {x: 1.0922536, y: 1.4024646, z: 1.4024646}
   m_Children:
   - {fileID: 1093444416}
   m_Father: {fileID: 1644964833}
@@ -712,7 +749,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -600, y: -220}
+  m_AnchoredPosition: {x: -250, y: -114}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &322323691
@@ -946,7 +983,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6d7d1e42dc563149af5efe8cdd4b1a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonPressed: 0
   myFx: {fileID: 322323695}
+  otherFx1: {fileID: 119031841}
+  otherFx2: {fileID: 1363548682}
+  otherFx3: {fileID: 298745829}
   botonFx: {fileID: 8300000, guid: 59b7d8defc474254a97ee59dc06f391c, type: 3}
 --- !u!1001 &345514943
 PrefabInstance:
@@ -1541,7 +1582,7 @@ RectTransform:
   m_GameObject: {fileID: 978405153}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9349305, y: 2.409758, z: 2.409758}
+  m_LocalScale: {x: 0.781471, y: 2.0142205, z: 2.0142205}
   m_Children:
   - {fileID: 378995175}
   m_Father: {fileID: 1644964833}
@@ -1549,7 +1590,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -666, y: 300}
+  m_AnchoredPosition: {x: -276, y: 151}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &978405155
@@ -1850,8 +1891,8 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1363548676}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
-  m_LocalScale: {x: 1.8767438, y: 2.409758, z: 2.409758}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0922536, y: 1.4024646, z: 1.4024646}
   m_Children:
   - {fileID: 2072528447}
   m_Father: {fileID: 1644964833}
@@ -1859,7 +1900,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -280, y: -220}
+  m_AnchoredPosition: {x: -65, y: -114}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1363548678
@@ -1968,7 +2009,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6d7d1e42dc563149af5efe8cdd4b1a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonPressed: 0
   myFx: {fileID: 1363548682}
+  otherFx1: {fileID: 119031841}
+  otherFx2: {fileID: 298745829}
+  otherFx3: {fileID: 322323695}
   botonFx: {fileID: 8300000, guid: a84e23d670ce850419079bd6717fb3ac, type: 3}
 --- !u!82 &1363548682
 AudioSource:
@@ -2328,7 +2373,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 1919300124}
+  - {fileID: 183076053}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2744,35 +2789,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1882513435}
   m_CullTransparentMesh: 1
---- !u!21 &1919300124
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'cubonecardMaterial
-
-    46422'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 4b56dc03f44c56d4399ac7c0541e60e8, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
-  m_BuildTextureStacks: []
 --- !u!1 &1937238169
 GameObject:
   m_ObjectHideFlags: 0
@@ -3017,14 +3033,14 @@ RectTransform:
   m_GameObject: {fileID: 2132366460}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 7.000016}
-  m_LocalScale: {x: 15.75077, y: 2.4236798, z: 1}
+  m_LocalScale: {x: 7.4339423, y: 1.288326, z: 0.459102}
   m_Children: []
   m_Father: {fileID: 1644964833}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -296.0001}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 1, y: 64}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2132366462

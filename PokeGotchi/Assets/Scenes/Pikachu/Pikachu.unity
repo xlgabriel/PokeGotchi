@@ -573,7 +573,7 @@ RectTransform:
   m_GameObject: {fileID: 451149716}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2987392, y: 2.409758, z: 2.409758}
+  m_LocalScale: {x: 0.9191785, y: 1.7054985, z: 1.7054985}
   m_Children:
   - {fileID: 634090570}
   m_Father: {fileID: 71333495}
@@ -581,7 +581,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -600, y: -220}
+  m_AnchoredPosition: {x: -255, y: -118}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &451149718
@@ -799,7 +799,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myFx: {fileID: 451149721}
-  botonFx: {fileID: 8300000, guid: 6c7a0afb53902d04f9246234bc381600, type: 3}
+  otherFx1: {fileID: 1120984388}
+  otherFx2: {fileID: 1089957064}
+  otherFx3: {fileID: 536708837}
+  botonFx: {fileID: 8300000, guid: 59b7d8defc474254a97ee59dc06f391c, type: 3}
 --- !u!1 &459775690
 GameObject:
   m_ObjectHideFlags: 0
@@ -1004,7 +1007,7 @@ RectTransform:
   m_GameObject: {fileID: 536708832}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2987392, y: 2.409758, z: 2.409758}
+  m_LocalScale: {x: 0.9191785, y: 1.7054985, z: 1.7054985}
   m_Children:
   - {fileID: 1787296536}
   m_Father: {fileID: 71333495}
@@ -1012,7 +1015,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -380, y: -220}
+  m_AnchoredPosition: {x: -74, y: -118}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &536708834
@@ -1230,6 +1233,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myFx: {fileID: 536708837}
+  otherFx1: {fileID: 1120984388}
+  otherFx2: {fileID: 1089957064}
+  otherFx3: {fileID: 451149721}
   botonFx: {fileID: 8300000, guid: ea747e3defe89c94cbf7f99db88f0643, type: 3}
 --- !u!1 &553357300
 GameObject:
@@ -1301,14 +1307,14 @@ RectTransform:
   m_GameObject: {fileID: 621569667}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 7}
-  m_LocalScale: {x: 15.750765, y: 2.4236774, z: 1}
+  m_LocalScale: {x: 7.5429816, y: 1.2288007, z: 0.49757}
   m_Children: []
   m_Father: {fileID: 71333495}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -296}
+  m_AnchoredPosition: {x: 0, y: -148}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &621569669
@@ -1662,7 +1668,7 @@ RectTransform:
   m_GameObject: {fileID: 1089957059}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2987392, y: 2.409758, z: 2.409758}
+  m_LocalScale: {x: 0.9191785, y: 1.7054985, z: 1.7054985}
   m_Children:
   - {fileID: 466080513}
   m_Father: {fileID: 71333495}
@@ -1670,7 +1676,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -380, y: -300}
+  m_AnchoredPosition: {x: -74, y: -177}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1089957061
@@ -1888,6 +1894,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myFx: {fileID: 1089957064}
+  otherFx1: {fileID: 1120984388}
+  otherFx2: {fileID: 536708837}
+  otherFx3: {fileID: 451149721}
   botonFx: {fileID: 8300000, guid: c21609e62c90dd24fbab66e33f105563, type: 3}
 --- !u!1 &1120984382
 GameObject:
@@ -1919,7 +1928,7 @@ RectTransform:
   m_GameObject: {fileID: 1120984382}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2987392, y: 2.409758, z: 2.409758}
+  m_LocalScale: {x: 0.9191785, y: 1.7054985, z: 1.7054985}
   m_Children:
   - {fileID: 1860150317}
   m_Father: {fileID: 71333495}
@@ -1927,7 +1936,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -600, y: -300}
+  m_AnchoredPosition: {x: -255, y: -177}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1120984384
@@ -2049,6 +2058,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myFx: {fileID: 1120984388}
+  otherFx1: {fileID: 536708837}
+  otherFx2: {fileID: 1089957064}
+  otherFx3: {fileID: 451149721}
   botonFx: {fileID: 8300000, guid: a4efe5d6f4b0c9a49a7862085232a796, type: 3}
 --- !u!82 &1120984388
 AudioSource:
@@ -2302,7 +2314,7 @@ RectTransform:
   m_GameObject: {fileID: 1316124837}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.93492997, y: 2.40976, z: 2.40976}
+  m_LocalScale: {x: 0.57578593, y: 1.4840747, z: 1.4840747}
   m_Children:
   - {fileID: 1967554383}
   m_Father: {fileID: 71333495}
@@ -2310,7 +2322,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -666, y: 300}
+  m_AnchoredPosition: {x: -307, y: 172}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1316124839
